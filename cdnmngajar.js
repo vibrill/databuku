@@ -619,10 +619,9 @@ function rand(arr) {
 
 function clearInput() {
     document.getElementById("materi").value = "";
-    checked = document.querySelectorAll('input[type="radio"]');
-    checked.forEach((item) => {
-        item.checked = false;
-    });
+    document.getElementById("whatever").checked = true;
+    document.getElementById("whatever_ifp").checked = true;
+    document.getElementById("detila").checked = true;
     generateIdea();
 }
 
