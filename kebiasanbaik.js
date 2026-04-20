@@ -408,4 +408,4 @@ const activities = [
     setInterval(() => {
         document.getElementById('kebiasaanBaik').innerText = activities[currentIndex];
         currentIndex = (currentIndex + 1) % activities.length;
-    }, 3000);
+    }, 2000);
